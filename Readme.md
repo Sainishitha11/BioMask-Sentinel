@@ -6,11 +6,6 @@ BioMask Sentinel is a high-security prototype designed to address the challenges
 
 ---
 
-## 📺 Project Demo
-![BioMask Sentinel Demo](https://via.placeholder.com/800x450.png?text=Add+Your+Demo+GIF+or+Video+Link+Here)
-
----
-
 ## 🌟 Key Technical Highlights
 
 * **Liveness-Locked Workflow:** Prevents "Replay Attacks" by requiring a liveness check before unlocking the document submission portal.
