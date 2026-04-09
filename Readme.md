@@ -112,9 +112,3 @@ npm run dev
   - **Multi-ID Support:** Expanding the PII masking logic to support PAN, Passport, and Voter IDs.
 
 -----
-
-## 📜 Compliance Statement
-
-This project is built for educational and demonstration purposes to highlight technical proficiency in **Computer Vision** and **Privacy-Preserving Software Design**. It adheres to the spirit of the **Aadhaar Act (2016)** regarding the protection of citizen biometrics.
-
------

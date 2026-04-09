@@ -34,7 +34,7 @@ async def process_image(
     with open(live_path, "wb") as buffer:
         buffer.write(await live_image.read())
 
-    # 1. Mask the Aadhaar
+    # 1. Masking the Aadhaar
     redact_aadhaar(id_path, redacted_path)
 
     # 2. Match the Faces
