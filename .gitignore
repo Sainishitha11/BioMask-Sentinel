@@ -1,0 +1,51 @@
+# --- Python / Backend ---
+# Ignore the virtual environment (Where the large .dll files live)
+backend/venv/
+venv/
+ENV/
+env/
+
+# Ignore Python cache files
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore temporary uploads (Privacy & Storage)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Ignore EasyOCR/DeepFace model weights if they download locally
+.EasyOCR/
+.deepface/
+
+
+# --- Node.js / Frontend ---
+# Ignore dependencies
+node_modules/
+frontend/node_modules/
+
+# Ignore Next.js build output
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Ignore environment variables (Secret keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+*.swp
+
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
